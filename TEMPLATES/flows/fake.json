@@ -1,0 +1,41 @@
+{ 
+  "name": "fake-delete",
+  "auto": true,
+  "contexts": [],
+  "responses": [ 
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "<speak>Let me make a note of that..</speak>"
+        },{
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": 
+          {
+            "view":"standard",
+            "queuedMessage":"conceirge",
+            "customEmail": {
+              "addQueryToCustomEmail": true
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

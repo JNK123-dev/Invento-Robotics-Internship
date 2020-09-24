@@ -1,0 +1,9 @@
+{
+    "name": "FAKE_ENTITY",
+    "isOverridable": true,
+    "isEnum": false,
+    "isRegexp": false,
+    "automatedExpansion": false,
+    "allowFuzzyExtraction": false
+  }
+  
